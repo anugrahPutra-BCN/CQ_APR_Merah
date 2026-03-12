@@ -160,7 +160,7 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
                 Koneksi();
                 conn.Open();
 
-                cmd = new SqlCommand("INSERT INTO ProgramStudi VALUES('MI01','Manajemen Informatika')", conn);
+                cmd = new SqlCommand("INSERT INTO ProgramStudi VALUES('MI01','Manajemen Informatika')", conn); // Query SQL untuk menambahkan data program studi baru dengan kode dan nama tertentu
 
                 int hasil = cmd.ExecuteNonQuery();
 
