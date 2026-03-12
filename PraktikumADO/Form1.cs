@@ -139,7 +139,7 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
                 Koneksi();
                 conn.Open();
 
-                cmd = new SqlCommand("UPDATE MataKuliah SET SKS=4 WHERE KodeMK='IF210101'", conn);
+                cmd = new SqlCommand("UPDATE MataKuliah SET SKS=4 WHERE KodeMK='IF210101'", conn); // Query SQL untuk mengupdate data mata kuliah dengan kode tertentu
 
                 int hasil = cmd.ExecuteNonQuery();
 
