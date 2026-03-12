@@ -110,7 +110,7 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
             }
         }
 
-        private void btnHitungDosen_Click(object sender, EventArgs e)
+        private void btnHitungDosen_Click(object sender, EventArgs e) // Event button untuk menghitung jumlah data dosen di database
         {
             try
             {
