@@ -94,7 +94,7 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
                 Koneksi();
                 conn.Open();
 
-                string query = "UPDATE Mahasiswa SET Alamat='Yogyakarta' WHERE NIM='23110100001'";
+                string query = "UPDATE Mahasiswa SET Alamat='Yogyakarta' WHERE NIM='23110100001'"; // Query SQL untuk mengupdate data mahasiswa dengan NIM tertentu
 
                 cmd = new SqlCommand(query, conn);
 
