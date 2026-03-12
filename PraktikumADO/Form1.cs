@@ -39,7 +39,7 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
                 MessageBox.Show(ex.Message);
             }
         }
-        }
+        
 
         // Event button untuk menghitung jumlah data mahasiswa di database
         private void btnHitungMhs_Click(object sender, EventArgs e)
