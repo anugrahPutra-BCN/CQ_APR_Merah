@@ -48,7 +48,7 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
                 Koneksi();
                 conn.Open();
 
-                string query = "SELECT COUNT(*) FROM Mahasiswa";
+                string query = "SELECT COUNT(*) FROM Mahasiswa"; // Query SQL untuk menghitung jumlah data mahasiswa
 
                 cmd = new SqlCommand(query, conn);
 
