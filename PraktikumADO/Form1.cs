@@ -22,6 +22,7 @@ namespace PraktikumADO
             );           
         }
 
+        //implement tombol koneksi database
         private void btnConnect_Click(object sender, EventArgs e) 
         { 
             try
