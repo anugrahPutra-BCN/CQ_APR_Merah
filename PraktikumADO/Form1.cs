@@ -153,7 +153,7 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
             }
         }
 
-        private void btnInsert_Click(object sender, EventArgs e)
+        private void btnInsert_Click(object sender, EventArgs e) // Event button untuk menambahkan data program studi baru ke database
         {
             try
             {
