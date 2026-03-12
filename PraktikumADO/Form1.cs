@@ -52,7 +52,7 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
 
                 cmd = new SqlCommand(query, conn);
 
-                int jumlah = (int)cmd.ExecuteScalar();
+                int jumlah = (int)cmd.ExecuteScalar(); // ExecuteScalar digunakan untuk mengambil satu nilai dari database
 
                 txtHasil.Text = jumlah.ToString();
 
