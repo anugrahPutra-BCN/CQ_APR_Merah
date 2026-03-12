@@ -87,7 +87,7 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
             }
         }
 
-        private void btnUpdate_Click(object sender, EventArgs e)
+        private void btnUpdate_Click(object sender, EventArgs e) // Event button untuk mengupdate data mahasiswa di database
         {
             try
             {
