@@ -14,6 +14,7 @@ namespace PraktikumADO
             InitializeComponent();
         }
 
+        // membuat method koneksi database
         private void Koneksi()
         {
             conn = new SqlConnection(
