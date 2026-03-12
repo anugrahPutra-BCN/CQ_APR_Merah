@@ -2,7 +2,7 @@
 using System.Windows.Forms; 
 using System.Data.SqlClient;
 
-namespace PraktikumADO
+namespace PraktikumADO // Namespace untuk aplikasi praktikum database
 {
     public partial class Form1 : Form
     {
@@ -40,6 +40,7 @@ namespace PraktikumADO
             }
         }
 
+        // Event button untuk menghitung jumlah data mahasiswa di database
         private void btnHitungMhs_Click(object sender, EventArgs e)
         {
             try
