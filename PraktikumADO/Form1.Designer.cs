@@ -47,6 +47,7 @@
             this.btnConnect.TabIndex = 0;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
+            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
             // btnHitungMhs
             // 
@@ -56,6 +57,7 @@
             this.btnHitungMhs.TabIndex = 1;
             this.btnHitungMhs.Text = "Hitung Mhs";
             this.btnHitungMhs.UseVisualStyleBackColor = true;
+            this.btnHitungMhs.Click += new System.EventHandler(this.btnHitungMhs_Click);
             // 
             // btnHitungMK
             // 
@@ -65,6 +67,7 @@
             this.btnHitungMK.TabIndex = 2;
             this.btnHitungMK.Text = "Hitung MK";
             this.btnHitungMK.UseVisualStyleBackColor = true;
+            this.btnHitungMK.Click += new System.EventHandler(this.btnHitungMK_Click);
             // 
             // btnUpdate
             // 
@@ -74,6 +77,7 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // label1
             // 
@@ -99,6 +103,7 @@
             this.btnHitungData.TabIndex = 6;
             this.btnHitungData.Text = "Hitung Data";
             this.btnHitungData.UseVisualStyleBackColor = true;
+            this.btnHitungData.Click += new System.EventHandler(this.btnHitungDosen_Click);
             // 
             // btnUpdateMk
             // 
@@ -108,6 +113,7 @@
             this.btnUpdateMk.TabIndex = 7;
             this.btnUpdateMk.Text = "Update MK";
             this.btnUpdateMk.UseVisualStyleBackColor = true;
+            this.btnUpdateMk.Click += new System.EventHandler(this.btnUpdateMK_Click);
             // 
             // btnInsertProgramStudi
             // 
@@ -117,7 +123,7 @@
             this.btnInsertProgramStudi.TabIndex = 8;
             this.btnInsertProgramStudi.Text = "Insert";
             this.btnInsertProgramStudi.UseVisualStyleBackColor = true;
-            this.btnInsertProgramStudi.Click += new System.EventHandler(this.btnInsertProgramStudi_Click);
+            this.btnInsertProgramStudi.Click += new System.EventHandler(this.btnInsert_Click);
             // 
             // Form1
             // 

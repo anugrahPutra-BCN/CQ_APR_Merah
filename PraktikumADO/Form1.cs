@@ -24,7 +24,7 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
 
         //implement tombol koneksi database
         private void btnConnect_Click(object sender, EventArgs e) 
-        { 
+        {
             try
             {
                 Koneksi();
@@ -34,10 +34,11 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
 
                 conn.Close();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
         }
 
         // Event button untuk menghitung jumlah data mahasiswa di database
@@ -48,11 +49,11 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
                 Koneksi();
                 conn.Open();
 
-                string query = "SELECT COUNT(*) FROM Mahasiswa"; // Query SQL untuk menghitung jumlah data mahasiswa
+                string query = "SELECT COUNT(*) FROM Mahasiswa";
 
                 cmd = new SqlCommand(query, conn);
 
-                int jumlah = (int)cmd.ExecuteScalar(); // ExecuteScalar digunakan untuk mengambil satu nilai dari database
+                int jumlah = (int)cmd.ExecuteScalar();
 
                 txtHasil.Text = jumlah.ToString();
 
@@ -131,7 +132,7 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
             }
         }
 
-        private void btnUpdateMK_Click(object sender, EventArgs e)
+        private void btnUpdateMK_Click(object sender, EventArgs e) // Event button untuk mengupdate data mata kuliah di database
         {
             try
             {
@@ -171,11 +172,6 @@ namespace PraktikumADO // Namespace untuk aplikasi praktikum database
             {
                 MessageBox.Show(ex.Message);
             }
-        }
-
-        private void btnInsertProgramStudi_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
