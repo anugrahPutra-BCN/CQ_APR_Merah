@@ -6,6 +6,7 @@ namespace PraktikumADO
 {
     public partial class Form1 : Form
     {
+        //menambahkan variabel koneksi
         SqlConnection conn;
         SqlCommand cmd;
         public Form1()
